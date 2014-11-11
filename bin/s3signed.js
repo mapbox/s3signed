@@ -21,8 +21,6 @@ var params = {
   Expires: Number(args[1]) || 600
 };
 
-console.log(params);
-
 s3.getSignedUrl('getObject', params, function(err, signedUrl) {
   if (err) return console.error(err);
   process.stdout.write(signedUrl);
