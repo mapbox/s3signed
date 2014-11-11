@@ -1,0 +1,13 @@
+{
+  "name": "signed",
+  "version": "0.0.1",
+  "description": "Generate a signed S3 URL",
+  "bin": {
+    "s3signed": "./bin/s3signed.js"
+  },
+  "author": "Ryan Clark",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.0.4"
+  }
+}
