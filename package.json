@@ -5,6 +5,7 @@
   "bin": {
     "s3signed": "./bin/s3signed.js"
   },
+  "main": "index.js",
   "author": "Ryan Clark",
   "license": "ISC",
   "dependencies": {
