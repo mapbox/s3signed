@@ -1,6 +1,6 @@
 {
   "name": "s3signed",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generate a signed S3 URL",
   "bin": {
     "s3signed": "./bin/s3signed.js"
