@@ -2,6 +2,12 @@
 
 Generate a temporary signed URL for a private object on S3.
 
+## Installation
+
+```
+npm install s3signed -g
+```
+
 ## Usage
 
 First, confirm that your shell is configured with appropriate AWS credentials.
