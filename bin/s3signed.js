@@ -4,7 +4,7 @@ var s3signed = require('..');
 
 var args = process.argv.slice(2);
 if (args.length < 1) {
-  console.log('Usage: signed <s3url> [seconds until expire]');
+  console.log('Usage: s3signed <s3url> [seconds until expire]');
   process.exit(1);
 }
 
