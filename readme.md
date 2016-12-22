@@ -17,7 +17,7 @@ s3signed <s3 url> [seconds until expires]
 ```
 
 - `s3url` must be of the form `s3://my-bucket/my/private/file`
-- defaults to expire in 10 min if unspecified
+- Max expiration is 12 hrs (43,200 seconds); defaults 10 min if unspecified
 
 ## Example
 
