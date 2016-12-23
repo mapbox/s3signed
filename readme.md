@@ -17,7 +17,8 @@ s3signed <s3 url> [seconds until expires]
 ```
 
 - `s3url` must be of the form `s3://my-bucket/my/private/file`
-- Max expiration is 12 hrs (43,200 seconds); defaults 10 min if unspecified
+- Max duration is linked to your current AWS CLI credentials. For maximum duration, re-auth before generating a signed URL
+- Default duration is 10 min if unspecified
 
 ## Example
 
