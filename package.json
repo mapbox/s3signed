@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/s3signed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a signed S3 URL",
   "bin": {
     "s3signed": "./bin/s3signed.js"
