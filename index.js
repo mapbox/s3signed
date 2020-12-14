@@ -1,8 +1,8 @@
 var AWS = require('aws-sdk');
-var s3 = new AWS.S3();
 var url = require('url');
 
 module.exports = function(s3url, expires, callback) {
+  var s3 = new AWS.S3();
   s3.config.getCredentials(function(err) {
     if (err) return callback(new Error(err.code));
 

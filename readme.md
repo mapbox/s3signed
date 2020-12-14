@@ -7,7 +7,7 @@ Generate a temporary signed URL for a private object on S3.
 ## Installation
 
 ```
-npm install s3signed -g
+npm install -g @mapbox/s3signed
 ```
 
 ## Usage
